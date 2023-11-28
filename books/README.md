@@ -122,3 +122,12 @@ https://www.amazon.com/dp/1617298034/
 
 ### Classic Computer Science Problems in Python First Edition
 https://www.amazon.com/dp/1617295981/
+
+### A Common-Sense Guide to Data Structures and Algorithms, Second Edition: Level Up Your Core Programming Skills 2nd Edition
+https://www.amazon.com/Common-Sense-Guide-Structures-Algorithms-Second/dp/1680507222
+
+### Data Structures and Algorithms with Python (Undergraduate Topics in Computer Science) 2015th Edition
+https://www.amazon.com/Structures-Algorithms-Undergraduate-Computer-Science/dp/3319130714/
+
+### Data Structures and Algorithms with Python: With an Introduction to Multiprocessing (Undergraduate Topics in Computer Science) 2nd ed. 2024 Edition
+https://www.amazon.com/Data-Structures-Algorithms-Python-Multiprocessing/dp/3031422082/
