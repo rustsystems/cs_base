@@ -1,7 +1,4 @@
-
-
 # Books for Computer Science Studies
-
 
 ## Code: The Hidden Language of Computer Hardware and Software
 https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319
@@ -114,6 +111,14 @@ https://www.amazon.com/Dynamic-Programming-Interview-Questions-Advanced/dp/B0C5P
 https://www.amazon.com/100-Interview-Questions-Programming-Advanced/dp/B0C5KQGXSW
 
 ## WISH LIST
-
 ### Advanced Algorithms and Data Structures
 https://www.amazon.com/Advanced-Algorithms-Structures-Marcello-Rocca/dp/1617295485/
+
+### Introduction to Algorithms, fourth edition 4th Edition
+https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/026204630X
+
+### Algorithms and Data Structures for Massive Datasets
+https://www.amazon.com/dp/1617298034/
+
+### Classic Computer Science Problems in Python First Edition
+https://www.amazon.com/dp/1617295981/
