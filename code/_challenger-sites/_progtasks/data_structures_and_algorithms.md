@@ -1,0 +1,137 @@
+
+
+- What is a data-structure? Code up a few examples. 
+- What is the difference between arrays and linked-lists
+- Define a stack and a queue. Explain how they differ. 
+- What is a binary search algorithm? What is its time-complexity?
+- What is big-oh, why is it important for analyzing algorithms.
+- Describe and code simple recursion
+- What is a HashTable? How does it work? Code it up.
+- What are binary trees, why are they useful? Code it up.
+- What is the difference between depth-first search and breadth first search? Code it up!
+- Explain a graph data structure and its applications? Code it up!
+- What are the main types of sorting algorithms? How do they differ in performance?
+   - Bubble, 
+   - Selection, 
+   - Insertion, 
+   - QuickSort, 
+   - MergeSort, 
+   - HeapSort
+- What is the difference between a singly linked and doubly linked list?
+- What is the time complexity of linear search
+- Describe dynamic programming, provide an example
+- What is a trie, what are its Applications
+- What is the difference between a binary search-tree and a Balanced Binary Search Tree such as an avl-tree
+- What is the time-complexity of the quick-sort algorithm, what is its worst case scenario?
+- Explain divide and conquer in Algorithm. Code an example of where this technique is used.
+- What are the differences of in-order, pre-order, and post-order traversal. Describe and Implement each one. 
+- What is a priority queue and how is it implemented using a heap
+- What is time-complexity and space complexity? How do they impact algorithm efficiency
+- Explain the difference between the best case, average-case, and worst case time complexities of an algorithm
+- Describe the merge-sort algorithm and its time complexity 
+- Describe the Insertion-Sort algorithm, what is its time complexity
+- What are the primary operations of a stack, how do they work?
+- Describe the operations of a queue and explain how a cicular queue can be implemented
+- What is a directed and undirected graph? Implement each one.
+- What is the difference between weighted and unweighted graphs. Implement each.
+- Describe and Implement Dijkstra's Shortest Path Algorithm.
+- What is the difference between a Min-Heap and Max-Heap, implement both
+- Implement a Map using a BST
+- What is Topological Sorting and in what situations is it useful. Code it up.
+- Explain how the concept of Memoization is used in Dynamic Programming
+- Describe the Knapsack problem and how Dynamic Programming can be used. Code it up.
+- What is the Longest Common Subsequence problem. Solve it using Dynamic Programming. 
+- Describe the Bellman Ford Algorithm and its use case. Code it up. 
+- Detect a Cycle in a Linked List. Describe/Implement Floyd's Cycle Finding Algorithm.
+- What is the Union-Find Algorithm. How can it be used to solve the disjoint set problem.
+- Describe the Knuth-Morris-Pratt Algorithm and its use of Pattern Searching within a string.
+- What is a greedy algorithm? Provide an example.
+- Explain the A* Algorithm and its Implications in pathfinding and AI
+- What is a Bloom Filter and when is it useful. Implement it. 
+- Describe a Self-Balancing Binary Search Tree. Explain an AVL Tree and a RedBlack Tree work. Implement both.
+- Explain the Boyer-Moore String Search Algorithm and how it improves upon the Naive String Search approach.
+- Describe the B-Tree Algorithm and the B+ data-structures. Discuss their applications in DB and File Systems.
+- What is the Maximum Subarray Problem? How can Kadanes Algorithm be used to solve it?
+- Explain Back-Tracking. Implement an Algorithm that uses Backtracking.
+   - Solve the n-queens problem.
+- What is the minimum spanning tree problem?
+   - Solve it with Kruskal's Algorithm
+   - Solve it with Prim's Algorithm
+- Implement/Describe Radix Sort, Counting Sort
+   - What are their use cases?
+- What is the travelling salesperson problem? How can it be approximated using heuristics or optimization techniques.
+- What is Strassen's Matrix Multiplication Algorithm and its time complexity? Code it up. 
+- What is a Skip-List and its applications in search and storage. 
+- What is the Rabyn Karp algorithm and its use in string search?
+- What is the Edit-Distance Problem? Solve it using Dynamic Programming?
+- Explain a minimum cut in a graph and describe the kargers algorithm for finding an approximate solution.
+- What are suffix arrays and suffix trees how do they help in solving string related problems. 
+- Explain the concept of Least Recently Used Cache and how it can be implemented using Structures like a hash-table and a doubly linked list.
+- Describe the difference between currency control algorithms:
+  - Two phase locking
+  - Times Temp ordering
+  Code it up!
+- What is the longest increasing subsequence problem. Solve it with Dynamic Programing, Solve it with other approaches.
+- Explain the CAP theorem and its implications for distributed systems.
+- Describe consistent hashing and its applications in load balancing and distributed systems.
+- What are the differences between a deterministic and non-deterministic algorithm. Provide examples.
+   - What is the Monte-Carlo Algorithm
+   - What is the Las Vegas Algorithm
+- What is the burrows-wheeler transform. What are its applications in Data Compression?
+- What is Locality Sensitive Hashing? What are its applications in Nearest Neighbor Search
+- What are Fenwick Trees? How can they be used for Efficient Range Query Operations
+   - What are binary indexed trees
+- What is the difference between online and offline algorithms. Provide examples of each.
+- What is Spectral Graph Theory and what are its applications in data-analysis and machine-learning.
+- What are strategies for Hash-Table Collisions?
+   - What is linear probing, quadratic probing, double hashing
+- How to parallelize algorithms, how can they improve computational tasks?
+- Describe the concept of an external merge-sort and its applications in handling large data-sets that do not fit in memory?
+- What is the difference between global and local alignment in sequence alignment algorithms. Provide examples of each.
+- What is the Maximum Flow Problem and how do the Ford-Fulkerson and Edmonds-Karp algorithms solve it?
+- What is a Monte-Carlo Algorithm? What problems can be solved using this technique? 
+- What is the Fast-Fourier Transform Algorithm? What are its applications in Signal Processing.
+- What is a space filling curve? What is a:
+   - Hilbert Curve
+   - Peano Curve
+   - Z-order Curve
+- What are the various Algorithms use for Garbage Collection:
+   - Mark-and-Sweep
+   - Reference Counting
+   - Generational GC
+- What is the Stable Marriage Problem
+   - How can gale shapely solve it?
+- Describe concurrent data-structures, discuss implementing them for multi-threaded applications
+- Explain Algorithmic Information Theory. Explain its relation to Kolmogorov Complexity.
+- Describe the concept of NP completeness and its implications for tractability of problems. 
+- Discuss different types of approximation algorithms such as polynomial time approximating schemes (PTAS)
+- Explain/Implement randomized algorithms
+- Explain/Implement symetric/asymetric crypto algorithms
+- Explain/Implement succinct data structures 
+   - Compressed Suffix Array
+   - Wavelet Tree
+- Explain/demonstrate Duality in Computational Geometry
+   - How does it solve Geometric Problems
+- Describe/Implement Quantum Algorithms
+   - What is the impact of QC on DSA
+   - Implement Schorrs Algorithm
+   - Implement Grovers Algorithm
+- What are Persistent Data Structures 
+   - How can their historical aspect model & manipulate DSA
+   - What is a partially persistent data structure
+- What are streaming algorithms
+   - What is their role in processing extremely massive datasets
+- Implement Count-Min Sketch
+- What are the types of Parallel Algorithms:
+   - What are task parallel algorithms
+   - What are data-parallel algorithms
+   - Implement Map/Reduce
+- What is amortized analysis how can it be used in the understanding performance of DSA
+- What is a compressed data-structure? What are its applications in representing large datasets?
+   - What is run-length encoding
+   - What is Huffman Encoding
+   - What is Delta Encoding 
+   - What is Bit lacking
+- What is Algorithmic Game Theory 
+- What are self stabilizing algorithms
+- What is the role of machine learning algorithms in optimizing and automating the discovery of efficient algorithms

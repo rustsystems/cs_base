@@ -1,0 +1,131 @@
+Ace the Coding Interview
+
+
+   - Reverse a linked-list
+   - Perform a binary search in a sorted-array
+   - Implement a queue using two stacks.
+   - Implement a hash-table, explain its method of action in the comments.
+   - Implement all ways of traversing a binary-tree.
+   - What is a heap and how is it used? 
+   - What is a graph and how is it used? 
+   - Implement a graph data structure
+   - Implement a graph using adjacency matrix
+   - Implement a graph using adjacency list
+   - What is the difference between a stack and a queue
+   - How would you delete a cycle in a linked-list
+   - When would you use a tree instead of a Hash-table
+   - How does QuickSort work? Implement it.
+   - Explain the Principal of Dynamic Programming
+   - Can you show me how Breadth First Search works
+   - How does the Dijkstra Algorithm work
+   - Implement a function to perform a Binary Search
+   - What is the difference between merge-sort and quick-sort
+      - Implement quick-sort
+      - Implement merge-sort
+      - Implement insertion-sort
+   - Explain and Solve the Knapsack Problem
+   - Explain and Implement the Floyd-Warshall Algorithm
+   - Explain and Implement the Bellman-Ford Algorithm
+   - Find the shortest path in a graph
+   - Find all permutations of a given string
+   - What is Big-Oh Notation and why is it important
+   - Explain the difference between time-complexity and space-complexity
+   - How do you determine the time-complexity of a recursive function
+   - What is the time-complexity of a Hash-Table insert operation
+   - What is the time and space complexity of Quick Sort
+   - Explain how time and space complexity would influence your choice of algorithm
+   - How does the time-complexity of an algorithm effect the performance
+   - What does O(log n) mean and can you give an example of an algorithm with this time complexity
+   - How would you reduce the Space Complexity of a given algorithm
+   - What is the worst case and average case complexity of a BST?
+
+   - How would you reverse a string?
+   - Find all permutations of a given string
+   - Check if a string is a Palindrome
+   - Find the first non-repeating character in a string
+   - Can you remove duplicates from a sorted array
+   - How would you find the missing numbers in a sequence
+   - Rotate a matrix 90 degrees
+   - Find the maximum sub-array sum
+   - Find the longest common prefix in an array of strings
+   - Move all zeros in an array to the end
+   - Reverse a linked list
+   - Find the middle of a linked-list
+   - Detect a cycle in a linked-list
+   - Merge two sorted linked-lists
+   - Remove a given node from a linked-list
+   - Find the kth to last element of a singly-linked-list
+   - Partition a linked-list around value x
+   - Add two numbers represented by linked-lists
+   - Find the intersection point of two linked-lists
+   - Check if a linked-list is a palindrome
+   - Design a stack that returns the minimum element in constant time
+   - Validate a sequence of pushed and popped elements in a stack
+   - Implement a queue using stacks
+   - Implement a stack using queues
+   - Sort a stack in ascending order
+   - Design a call center with three levels of employees: operator, supervisor, director using queues
+   - Solve towers of Hanoi using Stacks
+   - Implement a Circular Queue
+   - Reverse a stack without other data-streets
+   - Design a priority queue
+   - Determine if a binary tree is balanced
+   - Implement a breadth first search on a graph
+   - Implement a depth first search on a graph
+   - Find the lowest common ancestor of two nodes in a binary-tree
+   - Check if a graph is a tree
+   - Find the shortest path between two nodes in a graph
+   - Convert a binary search tree to a doubly linked list
+   - Find the diameter of a binary search tree
+   - Print the boundary of a binary tree
+   - Serialize and deserialize a binary-tree
+   - Write a recursive function to compute fibonacci
+   - Solve the towers of Hanoi recursively
+   - Implement the coin change problem using Dynamic Programming
+   - Solve the knapsack problem using Dynamic Programming
+   - Write a recursive function to generate all permutations of a string
+   - Solve the problem of climbing (Climbing 1 or 2 steps at a time) stairs using dynamic programming
+   - Find the longest common subsequence of two strings using dynamic programming
+   - Find the number of ways to decode a message given a coding scheme using dynamic programming
+   - Solve the problem of unique paths in a grid using dynamic programming
+   - Implement a function to compute the nth number in fibonacci sequence using dynamic programming
+   - Check if a number is a power of two using bit manipulation
+   - Write a function to count the number of bits set to 1 in a given number
+   - Swap the values of two integers without using any additional variables 
+   - Find the only non-repeating number in an array where every element repeats twice except 1, using bit manipulation
+   - Reverse the bits of a given binary number
+   - Find the two non-repeating numbers in an array where every element repeats twice except two, using bit manipulation
+   - Find the maximum of two numbers without using if-else comparison or any other comparison operators.
+   - Add two numbers without using Arithmetic operators.
+   - Determine the number of bits required to convert one integer into another
+   - Find the right most set bit in a binary number
+   - Design a URL shortening service like bitly
+   - Design a global File Storage Service like Google Drive
+   - Design a web search engine like Google
+   - Design a social network like Facebook
+   - Design a messaging app like WhatsApp
+   - Design an online multiplayer game like chess
+   - Design a distributed cache
+   - Design a recommendation system like Netflix or Amazon
+   - Design a rate-limiter for a distributed system
+   - Design a scalable notification service
+   - Horizontally scale a system
+   - What strategies would you use to partition data
+   - How would you handle hot-spots in your cache
+   - What are the different types of load balancers and how do they work
+   - How do you decide between SQL and NoSQL
+   - How does a CDN work and why is it important
+   - How do you handle data-replication and consistency across multiple databases in different regions
+   - How does a database index work and why is it important
+   - How would you implement caching strategies to improve performance
+   - What are the considerations when choosing between strong and eventual consistency
+   - Design a distributed logging system for a cloud infrastructure 
+   - How would you design a real-time comment system like Reddit or Quora
+   - Design a system to efficiently compute rank on a high frequency basis like a leaderboard system in?
+   - Design a ride sharing service like Uber
+   - Design an email delivery system that can ensure email delivery with high availability
+   - How would you design a service to monitor the uptime of a million web-sites
+   - Design a hotel reservation system
+   - Design a job-scheduler for a distributed system
+   - Design a distributed lock for a distributed system
+   - Design a garbage collector system
