@@ -1,0 +1,98 @@
+- What is Dynamic Programming?
+   - Why is it useful?
+- What is the difference between top-down and bottom-up Dynamic Programming?
+- What is Memoization? How is it used in Dynamic Programming?
+- How do you determine if a problem can be solved using Dynamic Programming?
+- What are overlapping sub-problems in Dynamic Programming?
+- What is the difference between greedy algorithms and a dynamic programming algorithm?
+- Implement Fibonacci using a bottom-up Dynamic Programming approach.
+- Implement Fibonacci using a top-down Dynamic Programming approach.
+- Implement a solution to a problem using both a greedy algorithm and a dynamic programming algorithm. Compare the results.
+- What are the key-steps to solve a problem using Dynamic Programming?
+- Solve finding the longest common subsequence (LCS) of two strings using Dynamic Programming.
+- Solve the problem of finding the shortest common supersequence (SCS) of two strings using Dynamic Programming.
+- Write an example demonstrating DP Time Complexities
+- Implement Coin-Change using Dynamic Programming
+- Solve the 0/1 Knapsack problem using Dynamic Programming
+- What is the State Transition Equation in Dynamic Programming?
+- Solve the LIS Longest Increasing Subsequence problem using Dynamic Programming
+- Solve Matrix Chain Multiplication using Dynamic Programming
+- Explain and Solve the Travelling Salesman Problem using Dynamic Programming
+- Solve finding the (LPS) Longest Palindromic Subsequence using Dynamic Programming
+- Explain State-Space Reduction and how it applies to Dynamic Programming
+- Solve the Edit-Distance problem via Dynamic Programming
+- Implement the Rod-Cutting problem using Dynamic Programming
+- Discuss/Demonstrate top-down and bottom-up DP in time/space complexity
+- What is the relationship between divide-conquer and dynamic programming? Provide an example.
+- Solve (MSIS) Maximum Sum Increasing Subsequence using Dynamic Programming
+- Solve Word-Break Problem using Dynamic Programming
+- Solve/Discuss Optimal Substructure in Dynamic Programming
+- Solve (LCIS) Longest Common Increasing Subsequence using Dynamic Programming
+- Solve the Egg-Dropping Puzzle using Dynamic Programming
+- Solve the Optimal Binary Search Tree problem using Dynamic Programming
+- Solve the Maximum Length Chain of Pairs problem using Dynamic Programming
+- Solve longest bitonic subsequence problem using Dynamic Programming
+- Solve the Palindrome Partitioning problem using Dynamic Programming
+- Solve the Longest Repeating Subsequence problem using Dynamic Programming
+- Solve the Minimum Cost Path problem in a grid using Dynamic Programming
+- Solve the Count All Possible Paths problem in a grid using Dynamic Programming
+- Solve the Subset Sum problem using Dynamic Programming
+- Solve the Maximum Product Cutting problem using Dynamic Programming
+- Solve the Minimum Number of Jumps to reach the end of an array using Dynamic Programming
+- Solve the Box Stacking problem using Dynamic Programming
+- Solve the Maximum Sum Rectangle in a 2D Array Problem using Dynamic Programming
+- Solve the Weighted Job Scheduling problem using Dynamic Programming
+- Solve the Optimal Strategy for a Game problem using Dynamic Programming
+- Solve Maximum Length of Pair Chain problem using Dynamic Programming
+- Solve Assembly Line Scheduling problem using Dynamic Programming
+- Solve the Longest Arithmetic Progression problem using Dynamic Programming
+- Solve finding the Longest Independent Set in a binary tree problem using Dynamic Programming
+- Solve the Minimum Partition problem using Dynamic Programming
+- Solve the Wildcard Pattern Matching problem using Dynamic Programming
+- Solve Distinct Subsequences problem using Dynamic Programming
+- Solve the Maximum Sum Non-Adjacent Elements problem using Dynamic Programming
+- Solve finding the Shortest Common Superstring of a set of strings problem using Dynamic Programming
+- Solve the Cutting the Rod with Maximum Product using Dynamic Programming
+- Solve the Count Derangements problem using Dynamic Programming
+- Solve the Count Number of Ways to cover a distance via Dynamic Programming
+- Solve the Longest Path in a Directed Acyclic Graph problem using Dynamic Programming
+- Solve State-Compression in Dynamic Programming
+- Solve finding the Maximum Size Square Sub-Matrix with all 1s in a binary Matrix problem using Dynamic Programming
+- Solve file merge patterns problem using Dynamic Programming
+- Solve finding the Minimum Cost Polygon Triangulation problem using Dynamic Programming
+- Implement the Text Justification problem using Dynamic Programming
+- Solve the K-Palindrome problem using Dynamic Programming
+- Solve the Maximum Profit with K Transactions problem using Dynamic Programming
+- Solve the Maximum Sum Subarray with Non-Overlappingg elements problem using Dynamic Programming
+- Implement a Rolling Hash and how it can be used to optimize Dynamic Programming
+- Solve the Balanced Partition problem using Dynamic Programming
+- Solve the Longest Common Substring with K mismatches problem using Dynamic Programming
+- Solve the Shortest Path with exactly K edges problem in Dynamic Programming
+- Solve finding longest Zig-Zag Subsequence problem using Dynamic Programming
+- Solve the longest repeated non-overlapping substring problem using Dynamic Programming
+- Improve a Dynamic Programming solution using the Optimality Principle
+- Solve the Longest increasing subarray with one change via Dynamic Programming
+- Solve Maximum Sum Subarray removing at most one element problem via Dynamic Programming
+- Solve Minimum Cost to Merge Stones Problem using Dynamic Programming
+- Solve finding the longest consecutive subsequence with absolute difference at most K problem using Dynamic Programming
+- Solve Alternating Subarray via Dynamic Programming
+- Solve finding Maximum Length of a Concatenated String with Unique Characters problem using Dynamic Programming
+- Solve Tree-Edit-Distance problem using Dynamic Programming
+- Solve optimal strategy for Rock, Paper, Scissors wiht Dynamic Payoffs via Dynamic Programming
+- Discuss/Implement parallelization in DP Algorithms
+- Solve Maximum Weight Independent Set in a path graph with non-negative weights problem using Dynamic Programming
+- Solve discrete convex hull problem using Dynamic Programming
+- Solve finding optimal cuts on a convex polygon problem using Dynamic Programming
+- Solve time-dependant shortest path problem using Dynamic Programming
+- Discuss sources of uncertainty in Dynamic Programming
+- Solve finding the optimal task assignment with different time intervals and constraints via Dynamic Programming
+- Solve maximum sum subsequence with non-adjacent elements and constraints via Dynamic Programming
+- Solve constrained longest common subsequence problem using Dynamic Programming
+- Solve finding longest increasing subsequence with a specific cost function via Dynamic Programming
+- Solve resource allocation with time windows and precedence constraints problem using Dynamic Programming
+- Solve the problem of finding the optimal matrix parenthisation with a special cost function via Dynamic Programming
+- Solve maximum profit job scheduling with release times and deadlines problem using Dynamic Programming
+- Solve minimum vertex cover in tree problem using Dynamic Programming
+- Solve finding the Maximum Subarray Sum with a custom scoring function via Dynamic Programming
+- Solve the Optimal Multistage Graph problem with a custom cost function via Dynamic Programming
+- Solve finding the maximum weight matching in a bipartite graph with constraints problem using Dynamic Programming
