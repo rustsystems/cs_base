@@ -52,8 +52,13 @@ def run_os_listdir():
         fu = [os.path.join(directory, o) for o in os.listdir(directory) if os.path.isdir(os.path.join(directory, o))]
     print(f"os.listdir\t\ttook {(time.time_ns() - a) / 1000 / 1000 / RUNS:.0f} ms. Found dirs: {len(fu)}")
 
-exts = ["c", "cpp", "clj", "hs", "java", "py", "rkt", "rs"]
-
+exts = [
+    "c", "cpp", "java", "py", "rb", "go", "rs",   # Primary Imperative
+    "clj", "hs", "rkt",    # Functional "Aged"/"Mature"
+    "ts", "js",  # Web/Modern
+    "kt", "swift",  # Weird/Misc....
+]
+s
 def run_os_scandir():
     a = time.time_ns()
     for i in range(RUNS):
