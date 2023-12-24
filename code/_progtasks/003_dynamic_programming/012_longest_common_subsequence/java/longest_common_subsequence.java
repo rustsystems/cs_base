@@ -19,16 +19,7 @@ public class longest_common_subsequence {
                 }
             }
         }
-        System.out.println("Printing 2D DP Array:");
-        int rowLen = len1+1;
-        int colLen = len2+1;
-        for (int ii = 0; ii < rowLen; ii++) {
-            for (int jj = 0; jj < rowLen; jj++) {
-                System.out.print(dp[ii][jj] + ", ");
-            }
-            System.out.println("");
-        }
-
+        
 
         StringBuilder sb = new StringBuilder();
         int i = len1;
