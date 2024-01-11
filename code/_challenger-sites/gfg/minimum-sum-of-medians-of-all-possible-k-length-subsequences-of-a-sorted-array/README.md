@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/minimum-sum-of-medians-of-all-possible-k-length-subsequences-of-a-sorted-arrays

@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/minimize-maximum-adjacent-difference-in-a-path-from-top-left-to-bottom-right

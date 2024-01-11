@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/number-of-subsequences-in-a-given-binary-string-divisible-by-2

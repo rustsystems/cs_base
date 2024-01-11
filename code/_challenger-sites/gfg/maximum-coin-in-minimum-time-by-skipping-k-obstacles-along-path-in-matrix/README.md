@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/maximum-coin-in-minimum-time-by-skipping-k-obstacles-along-path-in-matrix

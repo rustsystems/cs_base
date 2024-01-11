@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/check-if-permutation-of-size-n-can-form-uniquely

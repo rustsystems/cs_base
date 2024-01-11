@@ -1,0 +1,64 @@
+
+https://www.geeksforgeeks.org/check-if-the-given-array-can-be-constructed-uniquely-from-the-given-set-of-subsequences/
+
+Check if the given array can be constructed uniquely from the given set of subsequences
+
+
+
+Given an array arr of distinct elements and a list of subsequences seqs of the array, the task is to check whether the given array can be uniquely constructed from the given set of subsequences.
+Examples: 
+ 
+
+Input : arr[] = {1, 2, 3, 4}, seqs[][] = {{1, 2}, {2, 3}, {3, 4}} 
+Output: Yes 
+Explanations: The sequences [1, 2], [2, 3], and [3, 4] can uniquely reconstruct 
+the original array {1, 2, 3, 4}. 
+Input: arr[] = {1, 2, 3, 4}, seqs[][] = {{1, 2}, {2, 3}, {2, 4}} 
+Output: No 
+Explanations : The sequences [1, 2], [2, 3], and [2, 4] cannot uniquely reconstruct 
+{1, 2, 3, 4}. There are two possible sequences that can be constructed from the given sequences: 
+1) {1, 2, 3, 4} 
+2) {1, 2, 4, 3} 
+ 
+
+ 
+
+Approach: 
+In order to solve this problem we need to find the Topological Ordering of all the array elements and check if only one topological ordering of the elements exists or not, which can be confirmed by the presence of only single source at every instant while finding the topological ordering of elements.
+Below is the implementation of the above approach: 
+
+
+
+
+
+
+Article Tags :
+Topological Sorting 
+Algorithms 
+Competitive Programming 
+DSA 
+Graph
+Practice Tags :
+Algorithms
+Graph
+
+Time complexity : 
+The time complexity of the above algorithm will be O(N+E), where ‘N’ is the number of elements and ‘E’ is the total number of the rules. Since, at most, each pair of numbers can give us one rule, we can conclude that the upper bound for the rules is O(M) where ‘M’ is the count of numbers in all sequences. So, we can say that the time complexity of our algorithm is O(N + M).
+Auxiliary Space : O(N+ M), since we are storing all possible rules for each element.
+
+
+
+Additional Information
+Current difficulty :
+Hard
+Vote for difficulty :
+Easy
+Normal
+Medium
+Hard
+Expert
+Improved By :
+bgangwar59
+jithin
+anuradhapotta09
+shinjanpatra

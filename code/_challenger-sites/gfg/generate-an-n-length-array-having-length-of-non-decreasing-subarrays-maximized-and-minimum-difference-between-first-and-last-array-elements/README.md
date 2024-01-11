@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/generate-an-n-length-array-having-length-of-non-decreasing-subarrays-maximized-and-minimum-difference-between-first-and-last-array-elements

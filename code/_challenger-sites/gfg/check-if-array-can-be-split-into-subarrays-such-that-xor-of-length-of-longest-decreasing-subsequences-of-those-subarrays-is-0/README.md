@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/check-if-array-can-be-split-into-subarrays-such-that-xor-of-length-of-longest-decreasing-subsequences-of-those-subarrays-is-0

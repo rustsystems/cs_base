@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/split-given-array-in-minimum-number-of-subarrays-such-that-rearranging-the-order-of-subarrays-sorts-the-array

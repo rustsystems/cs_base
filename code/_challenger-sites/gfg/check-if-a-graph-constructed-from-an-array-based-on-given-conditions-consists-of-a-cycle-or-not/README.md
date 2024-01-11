@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/check-if-a-graph-constructed-from-an-array-based-on-given-conditions-consists-of-a-cycle-or-not

@@ -1,0 +1,55 @@
+https://www.geeksforgeeks.org/check-if-permutation-of-size-n-can-form-uniquely/
+
+Check if permutation of size N can form uniquely
+
+Given array A[][2] of size M, form a new array B[] of size N, for every i from 1 to M we know BA[i][0] < BA[i][1]. The task for this problem is to know if a permutation of size N can be uniquely formed. if it is possible to form print  “Yes” along with the permutation otherwise print “No”. A permutation of size N is an array of size N in which each integer from 1 to N occurs exactly once.
+
+Examples:
+
+Input: N = 3, A[][2] = {{3, 1}, {2, 3}}
+Output: Yes 
+3 1 2
+Explanation:  first element of required array B[] is greater than third element of B[] and third element of B[] is greater than second element of B[] which is  B[1] > B[3] > B[2] therefore B[1] = 3, B [3] = 2 and B[2] = 1 (This can be visualized as nodes and edges of graph).
+
+Input:  N = 3, A[][2] = {{3, 1}, {3, 2}} 
+Output:  No
+
+
+
+Approach: The following approach can be used to solve the given problem
+
+Breadth-First-Search can be used to solve this problem.
+
+This problem can be imagined as graph problem with nodes as array elements of required array B[] and edges as properties given in array A[][2]
+
+
+
+This can be observed that required array B[] will be unique if topological order of Graph is unique.
+Topological order of graph is unique if next vertex to choose is always unique when traversing with Breadth-First-Search.
+
+
+
+Follow the steps below to solve the problem:
+
+Declare adj[N + 1] for storing the adjacency list.
+Declare inDegree[N + 1] array to store indegree values of all nodes.
+Fill the adjacency list by iterating over all M edges.
+Declare Ans[N + 1] array where answers for permutation will be stored.
+Declare END variable with initial value N.
+Declare queue Q for BFS.
+If the queue has two or more elements print “No” and end the function.
+Take out the front element of the queue and store it in variable V.
+Set Ans[V] = END then decrement END variable by 1.
+Iterate to neighbors of V and reduce their in-degree by 1
+Check if their in-degree after reduction is zero, if it is zero then push that node in the queue.
+Finally, print “Yes” and print the array Ans[].
+Below is the implementation of the above approach:
+
+
+
+Output
+Yes
+3 1 2 
+No
+Time Complexity: O(N)  
+Auxiliary Space: O(N)

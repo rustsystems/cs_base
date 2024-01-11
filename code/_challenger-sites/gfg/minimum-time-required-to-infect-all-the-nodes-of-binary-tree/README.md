@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/minimum-time-required-to-infect-all-the-nodes-of-binary-tree

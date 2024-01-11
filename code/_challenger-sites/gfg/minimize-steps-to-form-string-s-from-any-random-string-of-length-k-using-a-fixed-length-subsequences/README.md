@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/minimize-steps-to-form-string-s-from-any-random-string-of-length-k-using-a-fixed-length-subsequences

@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/reduce-given-array-by-replacing-subarrays-of-length-at-least-k-consisting-of-even-numbers-with-their-length

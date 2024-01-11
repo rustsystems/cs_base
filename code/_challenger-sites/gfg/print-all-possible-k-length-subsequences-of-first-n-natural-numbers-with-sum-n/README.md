@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/print-all-possible-k-length-subsequences-of-first-n-natural-numbers-with-sum-n

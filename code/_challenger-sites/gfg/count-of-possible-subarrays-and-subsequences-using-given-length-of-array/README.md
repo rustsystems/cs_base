@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/count-of-possible-subarrays-and-subsequences-using-given-length-of-array

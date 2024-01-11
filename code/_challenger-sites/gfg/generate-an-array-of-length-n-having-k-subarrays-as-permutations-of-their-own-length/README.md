@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/generate-an-array-of-length-n-having-k-subarrays-as-permutations-of-their-own-length

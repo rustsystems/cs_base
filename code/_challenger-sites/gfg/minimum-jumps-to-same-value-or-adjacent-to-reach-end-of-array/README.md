@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/minimum-jumps-to-same-value-or-adjacent-to-reach-end-of-array
