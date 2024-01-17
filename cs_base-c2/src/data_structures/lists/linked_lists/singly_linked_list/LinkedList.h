@@ -174,6 +174,7 @@ char* LinkedListToString(const LinkedList* list) {
 char* NodeToString(const Node* node) {
     char* str = "";
     char* objectid_str = ObjectIDToString(node->id);
-    node->item;
-    sprintf("(Node: {id: %s, item: %s})", objectid_str, );
+    // node->item;
+    // sprintf("(Node: {id: %s, item: %s})", objectid_str, );
+    return objectid_str;
 }

@@ -1,0 +1,4 @@
+/Users/brian/dev_space/Rust-Systems/cs_base/cs_base-c2/build/CMakeFiles/cs_base_c2.dir
+/Users/brian/dev_space/Rust-Systems/cs_base/cs_base-c2/build/CMakeFiles/cs_base_c2_test.dir
+/Users/brian/dev_space/Rust-Systems/cs_base/cs_base-c2/build/CMakeFiles/edit_cache.dir
+/Users/brian/dev_space/Rust-Systems/cs_base/cs_base-c2/build/CMakeFiles/rebuild_cache.dir

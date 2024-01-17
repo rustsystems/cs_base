@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cs_base-c2/libs/check" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cs_base-c2/libs/json-c/json-c" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cs_base-c2/libs/json-c/tutorial-jsonc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cs_base-c2/libs/libuuid" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cs_base-c2/libs/vrg" vcs="Git" />
+  </component>
+</project>
