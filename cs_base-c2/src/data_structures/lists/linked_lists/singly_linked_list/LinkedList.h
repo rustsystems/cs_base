@@ -19,7 +19,7 @@ typedef struct LinkedList {
 
 Node* FindTailNode(const LinkedList* list);
 
-
+// Create, Init, New, Generate
 Node* InitNode() {
     Node* node = malloc(sizeof(Node));
     node->id = GenerateObjectID();
@@ -33,18 +33,20 @@ LinkedList* InitLinkedList() {
     return ll;
 }
 
-void DestroyNode(Node* node) {
+Node* DestroyNode(Node* node) {
     printf("DestroyNode\n");
 
     if(node == NULL)
-        return;
+        return NULL;
 
-    free(node->item);
+    node->id = DestroyObjectID(node->id);
     free(node);
+    node = NULL;
+    return node;
 }
 
-void DestroyLinkedList(LinkedList* list) {
-    Node* nodes[list->size - 1];
+LinkedList* DestroyLinkedList(LinkedList* list) {
+    Node* nodes[list->size];
     Node* n = list->head;
     int i = 0;
     nodes[i] = n;
@@ -55,10 +57,12 @@ void DestroyLinkedList(LinkedList* list) {
     }
 
     for (int ii = 0; ii < list->size; ii++) {
-        DestroyNode(nodes[ii]);
+        nodes[ii] = DestroyNode(nodes[ii]);
     }
 
     free(list);
+    list = NULL;
+    return list;
 }
 
 void InsertNode(LinkedList* list, Node* list_node) {
@@ -84,37 +88,36 @@ void RemoveNode(LinkedList* list, Node* node) {
     if(list == NULL || node == NULL)
         return;
 
-    Node* n = list->head;
-    while (n->next != NULL) {
-        if (n->next == node) {
-            n->next = n->next->next;
+    const Node* n = list->head;
+    do {
+        if (n == node) {
+            n = n->next;
             list->size -= 1;
+            node = DestroyNode(node);
+            break;
         }
-    }
-    DestroyNode(node);
+    } while ((n = n->next) != NULL);
 }
 
 
 Node* FindNodeById(const LinkedList* list, const int id) {
     Node* n = list->head;
-    while (n->next != NULL) {
+    do {
         if (n->id->id == id) {
             return n;
         }
-        n = n->next;
-    }
+    } while ((n = n->next) != NULL);
     return NULL;
 }
 
 
 Node* FindNodeByItem(const LinkedList* list, const void* item) {
     Node* n = list->head;
-    while (n->next != NULL) {
+    do {
         if (n->item == item) {
             return n;
         }
-        n = n->next;
-    }
+    } while ((n = n->next) != NULL);
     return NULL;
 }
 
@@ -122,12 +125,11 @@ Node* FindNodeByItem(const LinkedList* list, const void* item) {
 Node* FindNodeByIndex(const LinkedList* list, const int index) {
     Node* n = list->head;
     int i = 0;
-    while (n->next != NULL) {
+    do {
         if (index == i++) {
             return n;
         }
-        n = n->next;
-    }
+    } while ((n = n->next) != NULL);
     return NULL;
 }
 
@@ -142,6 +144,7 @@ Node* FindTailNode(const LinkedList* list) {
         }
         return n;
     }
+    return NULL;
 }
 
 

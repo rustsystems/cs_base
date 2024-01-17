@@ -33,6 +33,7 @@ list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
 set(TEST_SOURCES
         test/data_structures/lists/linked_lists/singly_linked_list/check_linkedlist.c
         src/data_structures/lists/linked_lists/circular_linked_list/CircularLinkedList.h
+        src/data_structures/lists/linked_lists/singly_linked_list/LinkedListOperations.h
 )
 add_executable(cs_base_c2_test ${TEST_SOURCES})
 target_link_libraries(${PROJECT_NAME} PRIVATE json-c::json-c)

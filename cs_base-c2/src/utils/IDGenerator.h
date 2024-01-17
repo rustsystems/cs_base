@@ -27,6 +27,15 @@ ObjectID* GenerateObjectID() {
     return object_id;
 }
 
+ObjectID* DestroyObjectID(ObjectID* object_id) {
+    if (object_id == NULL) {
+        return NULL;
+    }
+    free(object_id);
+    object_id = NULL;
+    return object_id;
+}
+
 char* UUIDToString(uuid_t uuid) {
     int size = 16 + 1;
     char* uuid_str = (char *)malloc(sizeof(char)*size);;

@@ -1,0 +1,5 @@
+"/Users/brian/Applications/CLion Nova.app/Contents/bin/cmake/mac/x64/bin/cmake" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=/Users/brian/Applications/CLion Nova.app/Contents/bin/ninja/mac/x64/ninja" -G Ninja -S /Users/brian/dev_space/Rust-Systems/cs_base/cs_base-c2 -B /Users/brian/dev_space/Rust-Systems/cs_base/cs_base-c2/cmake-build-debug
+-- Could NOT find Check (missing: Check_DIR)
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/brian/dev_space/Rust-Systems/cs_base/cs_base-c2/cmake-build-debug
