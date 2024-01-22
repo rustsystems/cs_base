@@ -76,6 +76,7 @@ DoubleNode* FindDoubleNodeByItem(DoubleLinkedList* list, void* item) {
     return NULL;
 }
 
+
 DoubleNode* FindDoubleNodeByIndex(DoubleLinkedList* list, int index) {
     Node* n = list->head;
     int i = 0;
@@ -109,8 +110,9 @@ DoubleLinkedList* ReverseDoubleList(DoubleLinkedList* list) {
     return reversed_list;
 }
 
+
 char* DoubleLinkedListToString(DoubleLinkedList* list) {
 
-}
+s}
 
 #endif //DOUBLYLINKEDLIST_H

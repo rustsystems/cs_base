@@ -101,7 +101,6 @@ void* GenerateNumbers(NumberGen numberGen) {
         int* rands = GenerateRandom(numberGen);
         return rands;
     }
-
     return NULL;
 }
 

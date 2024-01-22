@@ -7,6 +7,7 @@
 
 void read_config() {
     // json_object *root = json_object_from_file("contact.json");
+
 }
 
 int main(int argc, char** argv)

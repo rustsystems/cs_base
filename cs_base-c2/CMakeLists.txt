@@ -16,6 +16,7 @@ add_executable(
     src/main.c
     src/data_structures/lists/linked_lists/doubly_linked_list/DoublyLinkedList.h
     src/utils/IDGenerator.h
+        src/data_structures/lists/linked_lists/singly_linked_list/LinkedList.h
 )
 # Take care about check.pc settings
 find_package(json-c CONFIG)
@@ -34,7 +35,12 @@ set(TEST_SOURCES
         test/data_structures/lists/linked_lists/singly_linked_list/check_linkedlist.c
         src/data_structures/lists/linked_lists/circular_linked_list/CircularLinkedList.h
         src/data_structures/lists/linked_lists/singly_linked_list/LinkedListOperations.h
+        src/data_structures/lists/linked_lists/circular_doubly_linked_list/CircularDoublyLinkedList.h
+        src/data_structures/lists/linked_lists/singly_linked_list/LinkedList.h
+        test/data_structures/lists/linked_lists/doubly_linked_list/check_doublylinkedlist.c
+        test/checker_main.c
 )
-add_executable(cs_base_c2_test ${TEST_SOURCES})
+add_executable(cs_base_c2_test ${TEST_SOURCES}
+        src/data_structures/lists/linked_lists/singly_linked_list/LinkedList.h)
 target_link_libraries(${PROJECT_NAME} PRIVATE json-c::json-c)
 target_link_libraries(cs_base_c2_test ${CHECK_LIBRARIES})

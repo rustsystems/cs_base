@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cs_base_c2",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cs_base_c2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cs_base_c2-Debug-116021517e54915db880.json",
+					"name" : "cs_base_c2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cs_base_c2_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cs_base_c2_test-Debug-4d26c8af820bc0586792.json",
+					"name" : "cs_base_c2_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/brian/dev_space/Rust-Systems/cs_base/cs_base-c2/cmake-build-debug",
+		"source" : "/Users/brian/dev_space/Rust-Systems/cs_base/cs_base-c2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -5,26 +5,12 @@
 #include <stdlib.h>
 
 #include <check.h>
-
 #include "data_structures/lists/linked_lists/singly_linked_list/LinkedList.h"
-
-// typedef struct Node {
-//     int id;
-//     void* item;
-//     struct Node* next;
-// } Node;
-
-
-// typedef struct LinkedList {
-//     Node* head;
-//     int size;
-// } LinkedList;
-
 
 
 // LinkedList* InitLinkedList()
 // void DestroyLinkedList(LinkedList* list)
-START_TEST (check_linkedlist_init_and_destroy)
+START_TEST (check_sll_linkedlist_init_and_destroy)
 {
     LinkedList* ll = InitLinkedList();
 
@@ -46,7 +32,7 @@ END_TEST
 
 // Node* InitNode() {
 // void DestroyNode(Node* node)
-START_TEST(check_node_init_and_destroy)
+START_TEST(check_sll_node_init_and_destroy)
 {
     Node* node = InitNode();
     ck_assert(node != NULL);
@@ -56,7 +42,7 @@ START_TEST(check_node_init_and_destroy)
 }
 
 // void InsertNode(LinkedList* list, Node* list_node)
-START_TEST (check_insert_node)
+START_TEST (check_sll_insert_node)
 {
     LinkedList* ll = InitLinkedList();
     Node* n = InitNode();
@@ -72,7 +58,7 @@ START_TEST (check_insert_node)
 END_TEST
 
 // void InsertItem(LinkedList* list, void* item)
-START_TEST (check_insert_item)
+START_TEST (check_sll_insert_item)
 {
     LinkedList* ll = InitLinkedList();
     int val = 1234;
@@ -86,7 +72,7 @@ START_TEST (check_insert_item)
 END_TEST
 
 // void RemoveNode(LinkedList* list, Node* node)
-START_TEST (check_remove_node)
+START_TEST (check_sll_remove_node)
 {
     LinkedList* ll = InitLinkedList();
     Node* n = InitNode();
@@ -103,7 +89,7 @@ START_TEST (check_remove_node)
 END_TEST
 
 // Node* FindNodeById(LinkedList* list, int id)
-START_TEST (check_node_by_id)
+START_TEST (check_sll_node_by_id)
 {
     LinkedList* ll = InitLinkedList();
     Node* n = InitNode();
@@ -120,7 +106,7 @@ END_TEST
 
 
 // Node* FindNodeByItem(LinkedList* list, void* item)
-START_TEST (check_node_by_item)
+START_TEST (check_sll_node_by_item)
 {
     LinkedList* ll = InitLinkedList();
     Node* n = InitNode();
@@ -137,7 +123,7 @@ START_TEST (check_node_by_item)
 
 
 // Node* FindNodeByIndex(LinkedList* list, int index)
-START_TEST (check_node_by_index)
+START_TEST (check_sll_node_by_index)
 {
     LinkedList* ll = InitLinkedList();
     Node* n = InitNode();
@@ -168,77 +154,3 @@ START_TEST (check_node_by_index)
 // Node* FindTailNode(LinkedList* list)
 // LinkedList* ReverseList(LinkedList* list)
 // char* LinkedListToString(LinkedList* list)
-
-
-void setup(void)
-{
-}
-
-
-void teardown(void)
-{
-}
-
-
-Suite * test_suite(void)
-{
-    Suite *s;
-    TCase *tc_core;
-    TCase *tc_limits;
-
-    s = suite_create("CS_Base");
-    tc_core = tcase_create("compsci://DataStructures//Lists//LinkedLists//SinglyLinkedList");
-
-    tcase_add_checked_fixture(tc_core, setup, teardown);
-    tcase_add_test(tc_core, check_linkedlist_init_and_destroy);
-    tcase_add_test(tc_core, check_node_init_and_destroy);
-    tcase_add_test(tc_core, check_insert_node);
-    tcase_add_test(tc_core, check_insert_item);
-
-    tcase_add_test(tc_core, check_remove_node);
-    tcase_add_test(tc_core, check_node_by_id);
-    tcase_add_test(tc_core, check_node_by_item);
-    tcase_add_test(tc_core, check_node_by_index);
-    suite_add_tcase(s, tc_core);
-
-    return s;
-}
-
-
-// No Fork Mode
-// Check normally forks to create a separate address space. This allows a
-// signal or early exit to be caught and reported, rather than taking down
-// the entire test program, and is normally very useful. However, when you
-// are trying to debug why the segmentation fault or other program error
-// occurred, forking makes it difficult to use debugging tools. To define
-// fork mode for an SRunner object, you can do one of the following:
-//
-//      Define the CK_FORK environment variable to equal “no”.
-//
-//      Explicitly define the fork status through the use of the following function:
-//          void srunner_set_fork_status (SRunner * sr, enum fork_status fstat);
-//
-// The enum fork_status allows the fstat parameter to assume the following values:
-//      CK_FORK
-//      CK_NOFORK.
-// An explicit call to srunner_set_fork_status() overrides the CK_FORK environment variable.
-
-
-int main(int argc, char** argv) {
-    printf("LinkedList Test222...\n");
-
-    Suite *s;
-    SRunner *sr;
-    int number_failed;
-
-    s = test_suite();
-    sr = srunner_create(s);
-    srunner_set_fork_status(sr, CK_NOFORK);
-
-    srunner_run_all(sr, CK_VERBOSE);
-    number_failed = srunner_ntests_failed(sr);
-
-    srunner_free(sr);
-
-    return (number_failed == 0) ? EXIT_SUCCESS : EXIT_FAILURE;
-}
