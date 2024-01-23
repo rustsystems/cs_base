@@ -31,14 +31,19 @@ link_directories(${CHECK_LIBRARY_DIRS})
 
 ## ===================================================
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake")
+set(SOURCES
+
+)
 set(TEST_SOURCES
-        test/data_structures/lists/linked_lists/singly_linked_list/check_linkedlist.c
+        test/data_structures/lists/linked_lists/singly_linked_list/check_linkedlist.h
         src/data_structures/lists/linked_lists/circular_linked_list/CircularLinkedList.h
         src/data_structures/lists/linked_lists/singly_linked_list/LinkedListOperations.h
         src/data_structures/lists/linked_lists/circular_doubly_linked_list/CircularDoublyLinkedList.h
         src/data_structures/lists/linked_lists/singly_linked_list/LinkedList.h
-        test/data_structures/lists/linked_lists/doubly_linked_list/check_doublylinkedlist.c
+        test/data_structures/lists/linked_lists/doubly_linked_list/check_doublylinkedlist.h
         test/checker_main.c
+        src/data_structures/lists/linked_lists/doubly_linked_list/DoubleLinkedListOperations.h
+        src/data_structures/lists/linked_lists/doubly_linked_list/DoubleLinkedListOperations.h
 )
 add_executable(cs_base_c2_test ${TEST_SOURCES}
         src/data_structures/lists/linked_lists/singly_linked_list/LinkedList.h)

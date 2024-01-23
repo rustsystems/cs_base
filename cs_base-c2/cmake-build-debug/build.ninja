@@ -82,20 +82,6 @@ build cs_base_c2: C_EXECUTABLE_LINKER__cs_base_c2_Debug CMakeFiles/cs_base_c2.di
 
 build cmake_object_order_depends_target_cs_base_c2_test: phony || CMakeFiles/cs_base_c2_test.dir
 
-build CMakeFiles/cs_base_c2_test.dir/test/data_structures/lists/linked_lists/singly_linked_list/check_linkedlist.c.o: C_COMPILER__cs_base_c2_test_unscanned_Debug /Users/brian/dev_space/Rust-Systems/cs_base/cs_base-c2/test/data_structures/lists/linked_lists/singly_linked_list/check_linkedlist.c || cmake_object_order_depends_target_cs_base_c2_test
-  DEP_FILE = CMakeFiles/cs_base_c2_test.dir/test/data_structures/lists/linked_lists/singly_linked_list/check_linkedlist.c.o.d
-  FLAGS = -g -std=gnu2x -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/brian/dev_space/Rust-Systems/cs_base/cs_base-c2/./src -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/uuid -I/usr/local/include
-  OBJECT_DIR = CMakeFiles/cs_base_c2_test.dir
-  OBJECT_FILE_DIR = CMakeFiles/cs_base_c2_test.dir/test/data_structures/lists/linked_lists/singly_linked_list
-
-build CMakeFiles/cs_base_c2_test.dir/test/data_structures/lists/linked_lists/doubly_linked_list/check_doublylinkedlist.c.o: C_COMPILER__cs_base_c2_test_unscanned_Debug /Users/brian/dev_space/Rust-Systems/cs_base/cs_base-c2/test/data_structures/lists/linked_lists/doubly_linked_list/check_doublylinkedlist.c || cmake_object_order_depends_target_cs_base_c2_test
-  DEP_FILE = CMakeFiles/cs_base_c2_test.dir/test/data_structures/lists/linked_lists/doubly_linked_list/check_doublylinkedlist.c.o.d
-  FLAGS = -g -std=gnu2x -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/brian/dev_space/Rust-Systems/cs_base/cs_base-c2/./src -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/include/uuid -I/usr/local/include
-  OBJECT_DIR = CMakeFiles/cs_base_c2_test.dir
-  OBJECT_FILE_DIR = CMakeFiles/cs_base_c2_test.dir/test/data_structures/lists/linked_lists/doubly_linked_list
-
 build CMakeFiles/cs_base_c2_test.dir/test/checker_main.c.o: C_COMPILER__cs_base_c2_test_unscanned_Debug /Users/brian/dev_space/Rust-Systems/cs_base/cs_base-c2/test/checker_main.c || cmake_object_order_depends_target_cs_base_c2_test
   DEP_FILE = CMakeFiles/cs_base_c2_test.dir/test/checker_main.c.o.d
   FLAGS = -g -std=gnu2x -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -fcolor-diagnostics
@@ -111,7 +97,7 @@ build CMakeFiles/cs_base_c2_test.dir/test/checker_main.c.o: C_COMPILER__cs_base_
 #############################################
 # Link the executable cs_base_c2_test
 
-build cs_base_c2_test: C_EXECUTABLE_LINKER__cs_base_c2_test_Debug CMakeFiles/cs_base_c2_test.dir/test/data_structures/lists/linked_lists/singly_linked_list/check_linkedlist.c.o CMakeFiles/cs_base_c2_test.dir/test/data_structures/lists/linked_lists/doubly_linked_list/check_doublylinkedlist.c.o CMakeFiles/cs_base_c2_test.dir/test/checker_main.c.o
+build cs_base_c2_test: C_EXECUTABLE_LINKER__cs_base_c2_test_Debug CMakeFiles/cs_base_c2_test.dir/test/checker_main.c.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
   LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  -lcheck
   LINK_PATH = -L/usr/local/lib

@@ -20,7 +20,13 @@ typedef struct DoubleLinkedList {
     int size;
 } DoubleLinkedList;
 
-
+DoubleLinkedList* InitDoubleLinkedList();
+void InsertDoubleNode(DoubleLinkedList* list, DoubleNode* list_node);
+void InsertDoubleItem(DoubleLinkedList* list, void* item);
+void InsertDoubleItem(DoubleLinkedList* list, void* item);
+void RemoveDoubleNode(DoubleLinkedList* list, DoubleNode* node);
+DoubleNode* FindDoubleNodeById(DoubleLinkedList* list, int id);
+DoubleNode* FindDoubleNodeByIndex(DoubleLinkedList* list, int index);
 DoubleNode* FindDoubleTailNode(DoubleLinkedList* list);
 
 
@@ -98,21 +104,5 @@ DoubleNode* FindDoubleTailNode(DoubleLinkedList* list) {
     }
     return n;
 }
-
-
-DoubleLinkedList* ReverseDoubleList(DoubleLinkedList* list) {
-    DoubleLinkedList* reverse_list = InitDoubleLinkedList();
-    int ii = list->size - 1;
-    while (ii >= 0) {
-        DoubleNode* n = FindDoubleNodeByIndex(list, ii--);
-        InsertNode(reversed_list, n);
-    }
-    return reversed_list;
-}
-
-
-char* DoubleLinkedListToString(DoubleLinkedList* list) {
-
-s}
 
 #endif //DOUBLYLINKEDLIST_H

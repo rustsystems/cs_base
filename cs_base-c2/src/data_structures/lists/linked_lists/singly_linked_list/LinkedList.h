@@ -21,7 +21,18 @@ typedef struct LinkedList {
     int size;
 } LinkedList;
 
+Node* InitNode();
+LinkedList* InitLinkedList();
+Node* DestroyNode(Node* node);
+LinkedList* DestroyLinkedList(LinkedList* list);
 
+void InsertNode(LinkedList* list, Node* list_node);
+void InsertItem(LinkedList* list, void* item);
+void RemoveNode(LinkedList* list, Node* node);
+
+Node* FindNodeById(const LinkedList* list, const int id);
+Node* FindNodeByItem(const LinkedList* list, const void* item);
+Node* FindNodeByIndex(const LinkedList* list, const int index);
 Node* FindTailNode(const LinkedList* list);
 
 // Create, Init, New, Generate
@@ -39,7 +50,7 @@ LinkedList* InitLinkedList() {
 }
 
 Node* DestroyNode(Node* node) {
-    printf("DestroyNode\n");
+    printf("DestroyNode()\n");
 
     if(node == NULL)
         return NULL;
@@ -81,13 +92,11 @@ void InsertNode(LinkedList* list, Node* list_node) {
     }
 }
 
-
 void InsertItem(LinkedList* list, void* item) {
     Node* node = InitNode();
     node->item = item;
     InsertNode(list, node);
 }
-
 
 void RemoveNode(LinkedList* list, Node* node) {
     if(list == NULL || node == NULL)
@@ -104,7 +113,6 @@ void RemoveNode(LinkedList* list, Node* node) {
     } while ((n = n->next) != NULL);
 }
 
-
 Node* FindNodeById(const LinkedList* list, const int id) {
     Node* n = list->head;
     do {
@@ -114,7 +122,6 @@ Node* FindNodeById(const LinkedList* list, const int id) {
     } while ((n = n->next) != NULL);
     return NULL;
 }
-
 
 Node* FindNodeByItem(const LinkedList* list, const void* item) {
     Node* n = list->head;
@@ -126,7 +133,6 @@ Node* FindNodeByItem(const LinkedList* list, const void* item) {
     return NULL;
 }
 
-
 Node* FindNodeByIndex(const LinkedList* list, const int index) {
     Node* n = list->head;
     int i = 0;
@@ -137,7 +143,6 @@ Node* FindNodeByIndex(const LinkedList* list, const int index) {
     } while ((n = n->next) != NULL);
     return NULL;
 }
-
 
 Node* FindTailNode(const LinkedList* list) {
     if (list == NULL || list->head == NULL) {

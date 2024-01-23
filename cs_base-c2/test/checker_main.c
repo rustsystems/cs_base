@@ -3,34 +3,14 @@
 //
 #include "data_structures/lists/linked_lists/singly_linked_list/check_linkedlist.h"
 
-void tc_list_sll_setup(void)
+
+
+Suite* test_suite(void)
 {
-}
+    TCase* tc_limits;
 
-
-void tc_list_sll_teardown(void)
-{
-}
-
-
-Suite * test_suite(void)
-{
-    Suite *s;
-    TCase *tc_list_sll;
-    TCase *tc_limits;
-
-    s = suite_create("CS_Base");
-    tc_list_sll = tcase_create("compsci://CS_Base/DataStructures/Lists/LinkedLists/SinglyLinkedList");
-
-    tcase_add_checked_fixture(tc_list_sll, tc_list_sll_setup, tc_list_sll_teardown);
-    tcase_add_test(tc_list_sll, check_sll_linkedlist_init_and_destroy);
-    tcase_add_test(tc_list_sll, check_sll_node_init_and_destroy);
-    tcase_add_test(tc_list_sll, check_sll_insert_node);
-    tcase_add_test(tc_list_sll, check_sll_insert_item);
-    tcase_add_test(tc_list_sll, check_sll_remove_node);
-    tcase_add_test(tc_list_sll, check_sll_node_by_id);
-    tcase_add_test(tc_list_sll, check_sll_node_by_item);
-    tcase_add_test(tc_list_sll, check_sll_node_by_index);
+    Suite* s = suite_create("CS_Base");
+    TCase* tc_list_sll = create_singlylinkedlist_tcase();
     suite_add_tcase(s, tc_list_sll);
 
     return s;

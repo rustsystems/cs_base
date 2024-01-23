@@ -27,8 +27,7 @@ START_TEST (check_sll_linkedlist_init_and_destroy)
 
     ll = DestroyLinkedList(ll);
     ck_assert(ll == NULL);
-}
-END_TEST
+} END_TEST
 
 // Node* InitNode() {
 // void DestroyNode(Node* node)
@@ -39,7 +38,7 @@ START_TEST(check_sll_node_init_and_destroy)
 
     node = DestroyNode(node);
     ck_assert(node == NULL);
-}
+} END_TEST
 
 // void InsertNode(LinkedList* list, Node* list_node)
 START_TEST (check_sll_insert_node)
@@ -54,8 +53,7 @@ START_TEST (check_sll_insert_node)
     ck_assert((int)*((int*)ll->head->item) == 1234);
 
     ll = DestroyLinkedList(ll);
-}
-END_TEST
+} END_TEST
 
 // void InsertItem(LinkedList* list, void* item)
 START_TEST (check_sll_insert_item)
@@ -68,8 +66,7 @@ START_TEST (check_sll_insert_item)
     ck_assert((int)*((int*)ll->head->item) == 1234);
 
     ll = DestroyLinkedList(ll);
-}
-END_TEST
+} END_TEST
 
 // void RemoveNode(LinkedList* list, Node* node)
 START_TEST (check_sll_remove_node)
@@ -85,8 +82,7 @@ START_TEST (check_sll_remove_node)
 
     RemoveNode(ll, n);
     ck_assert(ll->size == 0);
-}
-END_TEST
+} END_TEST
 
 // Node* FindNodeById(LinkedList* list, int id)
 START_TEST (check_sll_node_by_id)
@@ -119,7 +115,7 @@ START_TEST (check_sll_node_by_item)
     ck_assert((int)*((int*)found_node->item) == val);
     ck_assert(found_node->id->id == n->id->id);
     ck_assert(found_node->id->global_id == n->id->global_id);
-}
+} END_TEST
 
 
 // Node* FindNodeByIndex(LinkedList* list, int index)
@@ -148,9 +144,34 @@ START_TEST (check_sll_node_by_index)
     ck_assert(item_val == val_2);
 
     printf("%d\n", item_val);
-}
+} END_TEST
 
 
 // Node* FindTailNode(LinkedList* list)
 // LinkedList* ReverseList(LinkedList* list)
 // char* LinkedListToString(LinkedList* list)
+
+void tc_list_singlylinkedlist_setup(void)
+{
+}
+
+
+void tc_list_singlylinkedlist_teardown(void)
+{
+}
+
+TCase* create_singlylinkedlist_tcase() {
+    TCase* tc_list_sll = tcase_create("compsci://CS_Base/DataStructures/Lists/LinkedLists/SinglyLinkedList");
+
+    tcase_add_checked_fixture(tc_list_sll, tc_list_singlylinkedlist_setup, tc_list_singlylinkedlist_teardown);
+    tcase_add_test(tc_list_sll, check_sll_linkedlist_init_and_destroy);
+    tcase_add_test(tc_list_sll, check_sll_node_init_and_destroy);
+    tcase_add_test(tc_list_sll, check_sll_insert_node);
+    tcase_add_test(tc_list_sll, check_sll_insert_item);
+    tcase_add_test(tc_list_sll, check_sll_remove_node);
+    tcase_add_test(tc_list_sll, check_sll_node_by_id);
+    tcase_add_test(tc_list_sll, check_sll_node_by_item);
+    tcase_add_test(tc_list_sll, check_sll_node_by_index);
+
+    return tc_list_sll;
+}
